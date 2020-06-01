@@ -4,9 +4,9 @@ Commit message validation with `commitlint` npm package
 
 ## What it does?
 
-![alt text](https://github.com/wilau2/circleci-commitlint-step/blob/master/.github/circle_fail.png)
+![alt text](https://github.com/SecretBase/circleci-commitlint-step/blob/master/.github/circle_fail.png)
 
-![alt text](https://github.com/wilau2/circleci-commitlint-step/blob/master/.github/circle_success.png)
+![alt text](https://github.com/SecretBase/circleci-commitlint-step/blob/master/.github/circle_success.png)
 
 ## Use
 
@@ -18,7 +18,7 @@ version: 2
 jobs:
   commitlint:
     docker:
-      - image: williamlauze/circleci-commitlint:latest
+      - image: secretbase/circleci-commitlint:latest
     working_directory: /www
     steps:
       - checkout
