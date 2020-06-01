@@ -1,4 +1,4 @@
-# circleci-commitlint-step [![CircleCI](https://circleci.com/gh/wilau2/circleci-commitlint-step.svg?style=svg)](https://circleci.com/gh/wilau2/circleci-commitlint-step)
+# circleci-commitlint-step
 
 Commit message validation with `commitlint` npm package
 
