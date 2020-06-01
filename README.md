@@ -20,6 +20,8 @@ jobs:
     docker:
       - image: secretbase/circleci-commitlint:latest
     working_directory: /www
+    environment:
+      CIRCLE_COMPARE_URL: << pipeline.project.git_url >>/compare/<< pipeline.git.base_revision >>..<<pipeline.git.revision>>
     steps:
       - checkout
       - run:
