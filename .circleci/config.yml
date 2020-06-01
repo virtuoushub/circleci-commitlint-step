@@ -3,7 +3,7 @@ version: 2
 jobs:
   commitlint:
     docker:
-      - image: williamlauze/circleci-commitlint:latest
+      - image: secretbase/circleci-commitlint:latest
     working_directory: /www
     steps:
       - checkout
