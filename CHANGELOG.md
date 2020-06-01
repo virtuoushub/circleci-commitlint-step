@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/SecretBase/circleci-commitlint-step/compare/v1.0.0...v1.0.1) (2020-06-01)
+
+
+### Bug Fixes
+
+* private and public repo logic inverted ([ece1b10](https://github.com/SecretBase/circleci-commitlint-step/commit/ece1b1082d86b948d1fd75cf9fa7ac7ab2e6579e))
+
 ## 1.0.0 (2020-06-01)
 
 
