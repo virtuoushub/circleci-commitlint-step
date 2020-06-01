@@ -2,10 +2,11 @@
   "name": "circleci-commitlint",
   "version": "1.0.0",
   "config": {
-    "dockerorganization": "williamlauze"
+    "dockerorganization": "secretbase"
   },
   "scripts": {
     "release": "standard-version",
+    "predeploy": "npm run release",
     "deploy": "npm run docker:build:version && npm run docker:tag:latest && npm run docker:push:version && npm run docker:push:latest",
     "docker:tag:latest": "docker tag ${npm_package_config_dockerorganization}/${npm_package_name}:${npm_package_version} ${npm_package_config_dockerorganization}/${npm_package_name}:latest",
     "docker:build:version": "docker build -t ${npm_package_config_dockerorganization}/${npm_package_name}:${npm_package_version} . --no-cache",
