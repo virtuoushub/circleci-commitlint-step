@@ -16,4 +16,7 @@ workflows:
   version: 2
   my_pipeline:
     jobs:
-      - commitlint
+      - commitlint:
+          filters:
+            branches:
+              ignore: master
