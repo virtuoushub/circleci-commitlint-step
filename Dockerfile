@@ -1,4 +1,4 @@
-FROM node:12.16-alpine
+FROM node:12.17-alpine
 
 RUN apk add --update bash git openssh curl jq
 
