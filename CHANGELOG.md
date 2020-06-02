@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/virtuoushub/circleci-commitlint-step/compare/v1.0.0...v1.0.2) (2020-06-02)
+
+
+### Bug Fixes
+
+* allow curl of PR metadata ([1aa659e](https://github.com/virtuoushub/circleci-commitlint-step/commit/1aa659e60792223e0e895c1ec4bae9875159893c)), closes [/github.com/nostalgic-css/NES.css/pull/425#issuecomment-637531225](https://github.com/virtuoushub//github.com/nostalgic-css/NES.css/pull/425/issues/issuecomment-637531225)
+* private and public repo logic inverted ([ece1b10](https://github.com/virtuoushub/circleci-commitlint-step/commit/ece1b1082d86b948d1fd75cf9fa7ac7ab2e6579e))
+* user dockerhub username ([8f16137](https://github.com/virtuoushub/circleci-commitlint-step/commit/8f16137ca8daf562b085c6a6cf83f5fa960179a0))
+
 ### [1.0.1](https://github.com/SecretBase/circleci-commitlint-step/compare/v1.0.0...v1.0.1) (2020-06-01)
 
 
