@@ -18,7 +18,7 @@ version: 2
 jobs:
   commitlint:
     docker:
-      - image: secretbase/circleci-commitlint:latest
+      - image: tromantic/circleci-commitlint:latest
     working_directory: /www
     environment:
       CIRCLE_COMPARE_URL: << pipeline.project.git_url >>/compare/<< pipeline.git.base_revision >>..<<pipeline.git.revision>>

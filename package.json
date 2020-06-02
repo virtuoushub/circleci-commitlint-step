@@ -2,7 +2,7 @@
   "name": "circleci-commitlint",
   "version": "1.0.1",
   "config": {
-    "dockerorganization": "secretbase"
+    "dockerorganization": "tromantic"
   },
   "scripts": {
     "release": "standard-version",
